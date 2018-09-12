@@ -1,0 +1,27 @@
+{
+  "url": "https://jira.com",
+  "jql": "sprint in openSprints() AND assignee = 'rrao2'",
+  "user": "username",
+  "pwd": "password",
+  "boardName": "Board Name",
+  "uiLaunchCommand": "open -a Firefox https://jira.com/browse/${issue}",
+  "templates": {
+    "bimp": "PROJ-338",
+    "binv": "PROJ-286"
+  },
+  "transitions": {
+    "open": 11,
+    "o": 11,
+    "in progress": 21,
+    "ip": 21,
+    "blocked": 31,
+    "b": 31,
+    "closed": 51,
+    "close": 51,
+    "c": 51,
+    "integration": 41,
+    "i": 41,
+    "int": 41
+  },
+  "fixVersion": "some version"
+}
